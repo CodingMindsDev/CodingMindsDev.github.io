@@ -1,1 +1,1 @@
-# CodingMindsDev.github.io
+# CodingMindsAcademy.github.io
