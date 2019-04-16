@@ -8,11 +8,11 @@
     <meta charset="utf-8">
     <link href="./img/favicon.png" rel="icon">
     <!-- UPDATE TEMPLATE 1 -->
-    <title>Technovation编程竞技与创业 | Coding Minds 编程思维</title>
-    <meta name="keywords" content="Technovation, 编程竞技与创业, 青少年编程, 课后编程辅导, 编程思维, 编程竞赛">
+    <title>Technovation编程竞技与创业竞赛 | Coding Minds 编程思维</title>
+    <meta name="keywords" content="Arduino, Arduino编程, C语言, 青少年编程, 课后编程辅导, 编程思维, 编程竞赛">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- UPDATE TEMPLATE 2 -->
-    <meta name="description" content="一年一度的全球女生科技创业大赛">
+    <meta name="description" content="制作智能电子系统，在硬件的世界学习软件">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
@@ -111,10 +111,10 @@
                 <div class="row">
                     <div class="col-sm-8">
                         <i class="icon icon-Coding color--primary"></i>
-                        <h1>{{cd.topTitleLine1}}<br>{{cd.topTitleLine2}}</h1>
-                        <h3>{{cd.topGradeLevel}}</h3>
+                        <h1>名校申请背景强化课程<br>Technovation编程竞技与创业竞赛</h1>
+                        <h3>6-12 年级 仅限女生</h3>
                         <p class="lead">
-                            {{cd.topIntroText}}
+                            Technovation是一年一度的全球青少年女生科技创业大赛。参赛同学组队完成独立的创业项目，从项目想法的构思，到项目的编程实现，以及后期商业的推广，都要完整的经历和实践。最终和全球的参赛项目竞争与评比，获得自己升学背景的提升。
                         </p>
                     </div>
                 </div>
@@ -124,25 +124,25 @@
         <!-- 2. Top Title Feature Image Section -->
         <section class="cover height-80 imagebg text-center" data-overlay="4">
             <div class="background-image-holder">
-                <img alt="background" ng-src="{{cd.bgImageUrl}}" />
+                <img alt="background" ng-src="img/my/cetech/bg.jpg" />
             </div>
             <div class="container pos-vertical-center">
                 <div class="row">
                     <div class="col-sm-8">
                         <h1>
-                            {{cd.bgTitle}}
+                            Technovation编程竞技与创业竞赛
                         </h1>
                         <p class="lead">
-                            {{cd.bgText}}
+                            学习、实践、竞赛、创业
                         </p>
                         <div class="modal-instance block">
                             <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
                             <span>
-                                <strong>{{cd.bgLearnMoreText}}</strong>
+                                <strong>了解更多Technovation</strong>
                             </span>
                             <div class="modal-container">
                                 <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                    <iframe ng-src="{{cd.bgLearnMoreLink}}" allowfullscreen="allowfullscreen"></iframe>
+                                    <iframe ng-src="https://technovationchallenge.org/" allowfullscreen="allowfullscreen"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -155,45 +155,45 @@
         <section class="text-center height-60">
             <div class="container pos-vertical-center">
                 <h4><br></h4>
-                <h2 class="text-center">{{cd.aboutTitle}}</h2>
+                <h2 class="text-center">关于课程</h2>
                 <p class="col-sm-6 col-sm-offset-3 lead">
-                    {{cd.aboutText}}
+                    学习编程 => 科技创业 + 竞赛
                 </p>
                 <h4><br></h4>
                 <div class="row height-10">
                     <div class="col-sm-6 col-md-3">
                         <div class="text-block">
                             <i class="icon icon--lg icon-Books"></i>
-                            <h4>{{cd.aboutCategoryTitle}}</h4>
+                            <h4>类别</h4>
                             <p>
-                                {{cd.aboutCategory}}
+                                编程创业
                             </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="text-block">
                             <i class="icon icon--lg icon-User"></i>
-                            <h4>{{cd.aboutGradeLevelTitle}}</h4>
+                            <h4>适合年级</h4>
                             <p>
-                                {{cd.aboutGradeLevel}}
+                                6-12女生
                             </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="text-block">
                             <i class="icon icon--lg icon-Dashboard"></i>
-                            <h4>{{cd.aboutSkillLevelTitle}}</h4>
+                            <h4>难度级别</h4>
                             <p>
-                                {{cd.aboutSkillLevel}}
+                                中级到高级
                             </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="text-block">
                             <i class="icon icon--lg icon-Conference"></i>
-                            <h4>{{cd.aboutRatioTitle}}</h4>
+                            <h4>师生比例</h4>
                             <p>
-                                {{cd.aboutRatio}}
+                                小于1:4
                             </p>
                         </div>
                     </div>
@@ -202,86 +202,86 @@
         </section>
 
         <!-- 4. Course Image Promotion Section (5 Images in Template) -->
-        <section ng-hide="{{!cd.promotion1.enabled}}" class="imageblock switchable feature-large bg--secondary space--sm">
+        <section ng-hide="!true" class="imageblock switchable feature-large bg--secondary space--sm">
             <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                 <div class="background-image-holder">
-                    <img alt="image" ng-src="{{cd.promotion1.imageUrl}}" />
+                    <img alt="image" ng-src="img/my/cetech/img1.png" />
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <h2>{{cd.promotion1.title}}</h2>
+                        <h2>解决实际问题</h2>
                         <p class="lead">
-                            {{cd.promotion1.text}}
+                            成功的创业开始于解决实际的问题，关注身边的问题，寻找创业的切入点。
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section ng-hide="{{!cd.promotion2.enabled}}" class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
+        <section ng-hide="!true" class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
             <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                 <div class="background-image-holder">
-                    <img alt="image" ng-src="{{cd.promotion2.imageUrl}}" />
+                    <img alt="image" ng-src="img/my/cetech/img2.jpg" />
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <h2>{{cd.promotion2.title}}</h2>
+                        <h2>APP手机编程</h2>
                         <p class="lead">
-                            {{cd.promotion2.text}}
+                            学习MIT App Inventor手机编程，动手实现自己的项目想法，在应用商店发布自己App。
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section ng-hide="{{!cd.promotion3.enabled}}" class="imageblock switchable feature-large bg--secondary space--sm">
+        <section ng-hide="!true" class="imageblock switchable feature-large bg--secondary space--sm">
             <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                 <div class="background-image-holder">
-                    <img alt="image" ng-src="{{cd.promotion3.imageUrl}}" />
+                    <img alt="image" ng-src="img/my/cetech/img3.jpg" />
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <h2>{{cd.promotion3.title}}</h2>
+                        <h2>团队的协作</h2>
                         <p class="lead">
-                            {{cd.promotion3.text}}
+                            和自己的小伙伴组建自己的创业团队，做你的公司的联合创始人。
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section ng-hide="{{!cd.promotion4.enabled}}" class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
+        <section ng-hide="!true" class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
             <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                 <div class="background-image-holder">
-                    <img alt="image" ng-src="{{cd.promotion4.imageUrl}}" />
+                    <img alt="image" ng-src="img/my/cetech/img4.jpg" />
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <h2>{{cd.promotion4.title}}</h2>
+                        <h2>商业计划</h2>
                         <p class="lead">
-                            {{cd.promotion4.text}}
+                            除了完成技术的实施，还要有完整的商业计划与构想，完整体验整个的创业过程。
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section ng-hide="{{!cd.promotion5.enabled}}" class="imageblock switchable feature-large bg--secondary space--sm">
+        <section ng-hide="!true" class="imageblock switchable feature-large bg--secondary space--sm">
             <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                 <div class="background-image-holder">
-                    <img alt="image" ng-src="{{cd.promotion5.imageUrl}}" />
+                    <img alt="image" ng-src="img/my/cetech/img5.png" />
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <h2>{{cd.promotion5.title}}</h2>
+                        <h2>展示与竞赛</h2>
                         <p class="lead">
-                            {{cd.promotion5.text}}
+                            和团队一起准备最终的项目展示与提交，和全球的女生比拼最有潜力的青少年创业项目。
                         </p>
                     </div>
                 </div>
@@ -289,142 +289,94 @@
         </section>
 
         <!-- 5. Course Curriculum (Optional) TODO -->
-        <section ng-hide="{{!cd.curriculum.enabled}}">
+        <section ng-hide="!true">
             <div class="container">
                 <div class="text-center">
                     <i class="icon icon-Calendar-3 color--primary"></i>
-                    <h3 class="text-center">课程大纲</h3>
+                    <h3 class="text-center">Course Curriculum</h3>
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                         <div class="process-1">
                             <div class="process__item">
-                                <h4>Week 1<br>Pick a problem to solve in your community.</h4>
-                                <!-- <ul class="bullets">
+                                <h4>Chapter 1<br>Introduction to AP CSP and Mobile App Development</h4>
+                                <ul class="bullets">
                                     <li>Introduction to Computer Science, and AP CSP</li>
                                     <li>Setup the MIT App Inventor environment</li>
                                     <li>Write your first APP: Sound Board</li>
-                                </ul> -->
+                                </ul>
                             </div>
                             <div class="process__item">
-                                <h4>Week 2<br>Setup App Inventor, and learn about types of businesses.</h4>
-                                <!-- <ul class="bullets">
+                                <h4>Chapter 2<br>MIT App Inventor in Action</h4>
+                                <ul class="bullets">
                                     <li>App Inventor UI</li>
                                     <li>Block Programming Language</li>
                                     <li>Mobile App Development Process</li>
-                                </ul> -->
+                                </ul>
                             </div>
                             <div class="process__item">
-                                <h4>Week 3<br>Learn about data and start doing market research.</h4>
-                                <!-- <ul class="bullets">
+                                <h4>Chapter 3<br>Big Idea I: Creativity</h4>
+                                <ul class="bullets">
                                     <li>Creative Principles</li>
                                     <li>Explore Animation, Simulation and Modeling</li>
                                     <li>App Example: Paint Pot</li>
-                                </ul> -->
+                                </ul>
                             </div>
                             <div class="process__item">
-                                <h4>Week 4<br>Learn loops and conditionals. Continue working on your market research and begin making your brand.</h4>
-                                <!-- <ul class="bullets">
+                                <h4>Chapter 4<br>Big Idea II: Abstraction</h4>
+                                <ul class="bullets">
                                     <li>Information Hiding</li>
                                     <li>Computational Complexity</li>
                                     <li>App Example: Magic 8 Ball</li>
-                                </ul> -->
+                                </ul>
                             </div>
                             <div class="process__item">
-                                <h4>Week 5<br>Learn about databases and sensors. Start your business model and keep working on your brand.</h4>
-                                <!-- <ul class="bullets">
+                                <h4>Chapter 5<br>Big Idea III: Data and Information</h4>
+                                <ul class="bullets">
                                     <li>Data Structures</li>
                                     <li>The Era of Big Data </li>
                                     <li>App Example: WeChat Messaging App</li>
-                                </ul> -->
+                                </ul>
                             </div>
                             <div class="process__item">
-                                <h4>Week 6<br>Make a paper prototype and finalize your business model.</h4>
-                                <!-- <ul class="bullets">
+                                <h4>Chapter 6<br>Big Idea IV: Algorithms</h4>
+                                <ul class="bullets">
                                     <li>Input and Output</li>
                                     <li>Algorithm Design Principles</li>
                                     <li>App Example: Quiz Test App</li>
-                                </ul> -->
+                                </ul>
                             </div>
                             <div class="process__item">
-                                <h4>Week 7<br>Start building your app and make a logo.</h4>
-                                <!-- <ul class="bullets">
+                                <h4>Chapter 7<br>Big Idea V: Programming</h4>
+                                <ul class="bullets">
                                     <li>Programming = Data + Algorithms</li>
                                     <li>Evaluate and Verify Your Program</li>
                                     <li>App Example: Reaction Game</li>
-                                </ul> -->
+                                </ul>
                             </div>
                             <div class="process__item">
-                                <h4>Week 8<br>Refine the prototype of the app.</h4>
-                                <!-- <ul class="bullets">
+                                <h4>Chapter 8<br>Big Idea VI: Internet</h4>
+                                <ul class="bullets">
                                     <li>Internet Basics</li>
                                     <li>https Protocol</li>
                                     <li>App Example: UPC Product Search</li>
-                                </ul> -->
+                                </ul>
                             </div>
                             <div class="process__item">
-                                <h4>Week 9<br>Make a marketing plan and start your pitch video.</h4>
-                                <!-- <ul class="bullets">
-                                    <li>Internet Basics</li>
-                                    <li>https Protocol</li>
-                                    <li>App Example: UPC Product Search</li>
-                                </ul> -->
-                            </div>
-                            <div class="process__item">
-                                <h4>Week 10<br>Release App 1.0 and get the customer feedback.</h4>
-                                <!-- <ul class="bullets">
-                                    <li>Internet Basics</li>
-                                    <li>https Protocol</li>
-                                    <li>App Example: UPC Product Search</li>
-                                </ul> -->
-                            </div>
-                            <div class="process__item">
-                                <h4>Week 11<br>Keep building your app, start your business plan, and finish your pitch video.</h4>
-                                <!-- <ul class="bullets">
+                                <h4>Chapter 9<br>Big Idea VII: Global Impact</h4>
+                                <ul class="bullets">
                                     <li>Problem-based Innovation</li>
                                     <li>Become a Young Entrepreneur</li>
                                     <li>Publish Your App to Google Play</li>
-                                </ul> -->
+                                </ul>
                             </div>
                             <div class="process__item">
-                                <h4>Week 12<br>Keep coding and writing your business plan. Start your demo video.</h4>
-                                <!-- <ul class="bullets">
+                                <h4>Chapter 10<br>About AP CSP Exam</h4>
+                                <ul class="bullets">
                                     <li>Overview of AP CSP Exams</li>
                                     <li>High School Science Fairs</li>
                                     <li>Where to Go Next</li>
-                                </ul> -->
-                            </div>
-                            <div class="process__item">
-                                <h4>Week 13<br>Release App 2.0 and start the Beta test.</h4>
-                                <!-- <ul class="bullets">
-                                    <li>Overview of AP CSP Exams</li>
-                                    <li>High School Science Fairs</li>
-                                    <li>Where to Go Next</li>
-                                </ul> -->
-                            </div>
-                            <div class="process__item">
-                                <h4>Week 14<br>Troubleshoot your app and continue your business plan. Finish your demo video.</h4>
-                                <!-- <ul class="bullets">
-                                    <li>Overview of AP CSP Exams</li>
-                                    <li>High School Science Fairs</li>
-                                    <li>Where to Go Next</li>
-                                </ul> -->
-                            </div>
-                            <div class="process__item">
-                                <h4>Week 15<br>Inevestor demo day.</h4>
-                                <!-- <ul class="bullets">
-                                    <li>Overview of AP CSP Exams</li>
-                                    <li>High School Science Fairs</li>
-                                    <li>Where to Go Next</li>
-                                </ul> -->
-                            </div>
-                            <div class="process__item">
-                                <h4>Week 16<br>Finish your app and business plan. Create a pitch presentation.</h4>
-                                <!-- <ul class="bullets">
-                                    <li>Overview of AP CSP Exams</li>
-                                    <li>High School Science Fairs</li>
-                                    <li>Where to Go Next</li>
-                                </ul> -->
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -435,18 +387,75 @@
         <!-- 6. Course Goals -->
         <section class="bg--secondary">
             <div class="container">
-                <h2 class="text-center">{{cd.goalsTitle}}</h2>
+                <h2 class="text-center">课程学习收获和目标</h2>
                 <div class="row">
-                    <div class="col-sm-4" ng-repeat="goal in cd.goals">
+                    
+                    <div class="col-sm-4">
                         <div class="feature feature-2 boxed boxed--border">
-                            <i class="icon color--primary" ng-class="goal.icon"></i>
+                            <i class="icon-Coding icon color--primary" ng-class="goal.icon"></i>
                             <div class="feature__body">
                                 <p>
-                                    {{goal.text}}
+                                    编程语言基础和计算机科学的概念
                                 </p>
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="feature feature-2 boxed boxed--border">
+                            <i class="icon-Gears icon color--primary" ng-class="goal.icon"></i>
+                            <div class="feature__body">
+                                <p>
+                                    了解APP开发的服务器与云计算编程
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="feature feature-2 boxed boxed--border">
+                            <i class="icon-Puzzle icon color--primary" ng-class="goal.icon"></i>
+                            <div class="feature__body">
+                                <p>
+                                    训练发现问题、动手解决问题的能力
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="feature feature-2 boxed boxed--border">
+                            <i class="icon-Server icon color--primary" ng-class="goal.icon"></i>
+                            <div class="feature__body">
+                                <p>
+                                    官方发布APP参与创业竞赛评比
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="feature feature-2 boxed boxed--border">
+                            <i class="icon-Idea icon color--primary" ng-class="goal.icon"></i>
+                            <div class="feature__body">
+                                <p>
+                                    培养学生的科学创新能力和创业思想
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="feature feature-2 boxed boxed--border">
+                            <i class="icon-Key icon color--primary" ng-class="goal.icon"></i>
+                            <div class="feature__body">
+                                <p>
+                                    为高中的AP计算机课程以及科学竞赛准备
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -454,40 +463,93 @@
         <!-- 7. Course Highlights -->
         <section class="text-center">
             <div class="container">
-                <h2 class="text-center">{{cd.highlightsTitle}}</h2>
+                <h2 class="text-center">教学特点</h2>
                 <div class="row">
-                    <div class="col-sm-4" ng-repeat="hl in cd.highlights">
+                    
+                    <div class="col-sm-4" >
                         <div class="feature feature-3 boxed boxed--lg boxed--border">
-                            <i class="icon icon--lg color--primary" ng-class="hl.icon"></i>
-                            <h4>{{hl.title}}</h4>
+                            <i class="icon-Fashion icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>兴趣乐趣第一位</h4>
                             <p>
-                                {{hl.text}}
+                                有趣是我们课程内容的第一要求，了解学生的兴趣才能设计出学生喜欢的课程。
                             </p>
                         </div>
                     </div>
+                    
+                    <div class="col-sm-4" >
+                        <div class="feature feature-3 boxed boxed--lg boxed--border">
+                            <i class="icon-Administrator icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>和专业老师学习</h4>
+                            <p>
+                                学习知识的同时也学习现实中的科研与应用，丰富自己的经历和机会。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4" >
+                        <div class="feature feature-3 boxed boxed--lg boxed--border">
+                            <i class="icon-Hand icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>互动比赛答疑</h4>
+                            <p>
+                                为什么不用网络课堂？学生喜欢现场的互动，交流和比赛。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4" >
+                        <div class="feature feature-3 boxed boxed--lg boxed--border">
+                            <i class="icon-Air-Balloon icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>配套阶梯训练</h4>
+                            <p>
+                                动手才是硬道理，边学边练效果好。知识掌握得更加踏实！
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4" >
+                        <div class="feature feature-3 boxed boxed--lg boxed--border">
+                            <i class="icon-Idea icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>培养创造创新力</h4>
+                            <p>
+                                学习编程并不是最终目标，培养发现问题、动手解决问题的能力更为重要。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4" >
+                        <div class="feature feature-3 boxed boxed--lg boxed--border">
+                            <i class="icon-Key icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>科学竞赛大学申请</h4>
+                            <p>
+                                计算机编程只是开始，做项目，参加科学竞赛才是大学申请的真正利器！
+                            </p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
 
+        
         <!-- 8. Course Schedule -->
-        <section ng-hide="{{!cd.sessionsEnabled}}" class="switchable bg--secondary">
+        <section ng-hide="!false" class="switchable bg--secondary">
             <div class="container">
-                <h2 class="text-center">{{cd.sessionsTitle}}</h2>
+                <h2 class="text-center">选择适合您的课程时间</h2>
                 <div class="row">
                     <div class="col-sm-12 col-md-12">
                         <table class="border--round table--alternate-row">
                             <thead>
                                 <tr>
-                                    <th class="text-center col-sm-4 col-md-4">{{cd.sessionsDateTitle}}</th>
-                                    <th class="text-center col-sm-4 col-md-4">{{cd.sessionsTimeTitle}}</th>
-                                    <th class="text-center col-sm-4 col-md-4">{{cd.sessionsLocationTitle}}</th>
+                                    <th class="text-center col-sm-4 col-md-4">日期</th>
+                                    <th class="text-center col-sm-4 col-md-4">时间</th>
+                                    <th class="text-center col-sm-4 col-md-4">地点</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr ng-repeat="session in cd.sessions">
-                                    <td class="text-center">{{session.date}}</td>
-                                    <td class="text-center">{{session.time}}</td>
-                                    <td class="text-center">{{session.location}}</td>
+                                <tr ng-repeat="session in page.sessions">
+                                    <td class="text-center"></td>
+                                    <td class="text-center"></td>
+                                    <td class="text-center"></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -495,72 +557,35 @@
                 </div>
             </div>
         </section> 
-        
-
-        <!-- 10. FAQs -->
-        <section >
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="text-block">
-                                                    <h4>常见问题</h4>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="text-block">
-                                                    <h5>这个课程适合谁？</h5>
-                                                    <p>
-                                                        该课程比较适合对计算机编程感兴趣，并且有打算参加Technovation竞赛的6-12年级女生。
-                                                    </p>
-                                                </div>
-                                                <div class="text-block">
-                                                    <h5>为什么该课程只给女生开放？</h5>
-                                                    <p>
-                                                        Technovation是一个全球范围内举行的专门给中学在校女生组织的一个科技创业竞赛，该竞赛只对女生开放。
-                                                    </p>
-                                                </div>
-                                                <div class="text-block">
-                                                    <h5>课程能让学生收获到什么？</h5>
-                                                    <p>
-                                                        通过学习，学生可以建立起计算机编程基础，学习具体的手机App开发，发布自己的App产品。同时，学生会学习和经历整个创业过程，准备专业的投资演示与竞赛，为自己的大学申请增加独特的经历。
-                                                    </p>
-                                                </div>       
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="text-block">
-                                                    <h5>这个课程以什么形式怎么上？</h5>
-                                                    <p>
-                                                        这个课程我们会以在教室上课的形式来进行，每周的课程涵盖App的开发和创业项目的推进。目标在与提交2019年初的Technovation的参赛作品。
-                                                    </p>
-                                                </div>
-                                                <div class="text-block">
-                                                    <h5>这个课程的上课时间？</h5>
-                                                    <p>
-                                                        该课程分为上下两期。每期8周课，每周2个小时的上课时间。具体的开始日期和时间会根据同学的具体情况统一决定。请填写报名表，我们会和大家一起讨论合适的上课时间。
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-
         <!-- 10. Registration -->
-        <section ng-hide="{{!cd.registrationEnabled}}" class="text-center bg--secondary">
+        <section ng-hide="!true" class="text-center bg--secondary">
             <div class="container">
-                <h2 class="text-center">{{cd.registrationTitle}}</h2>
+                <h2 class="text-center"></h2>
                 <div class="row">
                     <div class="col-sm-6 col-md-4">
                         <div class="pricing pricing-1 boxed boxed--lg boxed--border">
-                            <h3>{{cd.priceTitle}}</h3>
-                            <span class="h2"><strong>{{cd.price}}</strong></span>
-                            <span class="type--fine-print">{{cd.allCreditCards}}</span>
+                            <h3>注册报名</h3>
+                            <span class="h2"><strong></strong></span>
+                            <span class="type--fine-print"></span>
                             <hr>
                             <ul>
-                                <li ng-repeat="priceItem in cd.priceItems"><span class="checkmark bg--primary-1"></span><span>{{priceItem}}</span></li>
+                                
+                                <li ><span class="checkmark bg--primary-1"></span><span>
+                                第一节课免费试听，无需付款</span></li>
+                                
+                                <li ><span class="checkmark bg--primary-1"></span><span>
+                                师生比例1:4，保证教学质量</span></li>
+                                
+                                <li ><span class="checkmark bg--primary-1"></span><span>
+                                动手做项目，竞赛创业为目标</span></li>
+                                
+                                <li ><span class="checkmark bg--primary-1"></span><span>
+                                为高中和大学名校申请服务</span></li>
+                                
                             </ul>
-                            <a class="btn btn--primary" href="{{cd.registrationLink}}">
+                            <a class="btn btn--primary" href="https://jinshuju.net/f/x53cr3">
                                 <span class="btn__text">
-                                    {{cd.registerNow}}
+                                    我要报名
                                 </span>
                             </a>
                         </div>
@@ -568,27 +593,27 @@
                 </div>
             </div>
         </section>
-
-        <section class="switchable" ng-repeat="loc in cd.locations">
+        
+        <section class="switchable">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-5">
                         <div class="switchable__text">
-                            <h3>{{loc.name}}</h3>
-                            <p class="lead">{{loc.address1}}<br/>{{loc.address2}}</p>
+                            <h3>Irvine尔湾编程思维教室地址</h3>
+                            <p class="lead">930 Roosevelt, Suite 236<br/>Irvine, CA 92620</p>
                             <!-- <h4>Camp Schedule</h4> -->
                             <p class="lead">如果您需要提前或推后接送学生，请与我们联系，我们会安排专人负责。</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-7 col-xs-12">
-                        <div class="map-container border--round" data-maps-api-key="AIzaSyCW93W_oXeGZBBQ4Bsz2glY2rj-I0eqlCE" data-address="{{loc.addressMap}}" data-marker-title="Stack" data-map-style="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFBB00&quot;},{&quot;saturation&quot;:43.400000000000006},{&quot;lightness&quot;:37.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFC200&quot;},{&quot;saturation&quot;:-61.8},{&quot;lightness&quot;:45.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:51.19999999999999},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:52},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0078FF&quot;},{&quot;saturation&quot;:-13.200000000000003},{&quot;lightness&quot;:2.4000000000000057},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00FF6A&quot;},{&quot;saturation&quot;:-1.0989010989011234},{&quot;lightness&quot;:11.200000000000017},{&quot;gamma&quot;:1}]}]" data-map-zoom="12"></div>
+                        <div class="map-container border--round" data-maps-api-key="AIzaSyCW93W_oXeGZBBQ4Bsz2glY2rj-I0eqlCE" data-address="930 Roosevelt, Irvine, CA 92620" data-marker-title="Stack" data-map-style="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFBB00&quot;},{&quot;saturation&quot;:43.400000000000006},{&quot;lightness&quot;:37.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFC200&quot;},{&quot;saturation&quot;:-61.8},{&quot;lightness&quot;:45.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:51.19999999999999},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:52},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0078FF&quot;},{&quot;saturation&quot;:-13.200000000000003},{&quot;lightness&quot;:2.4000000000000057},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00FF6A&quot;},{&quot;saturation&quot;:-1.0989010989011234},{&quot;lightness&quot;:11.200000000000017},{&quot;gamma&quot;:1}]}]" data-map-zoom="12"></div>
                     </div>
                 </div>
             </div>
         </section>
         
-
-        <!-- <section ng-hide="{{!cd.faq.enabled}}" class="bg--secondary">
+        <!-- 10. FAQs -->
+        <section ng-hide="!" class="bg--secondary">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -647,7 +672,7 @@
                 </div>
 
             </div>
-        </section> -->
+        </section>
 
         <!-- Footer 1 -->
         <section class="space--xs imagebg" data-gradient-bg='#4876BD,#5448BD,#8F48BD,#BD48B1'>
@@ -655,12 +680,12 @@
                 <div class="row">
                     <div class="cta cta--horizontal text-center-xs">
                         <div class="col-sm-9">
-                            <h4>{{cd.promotionText}}</h4>
+                            <h4>想现在加入到快乐中学习编程吗?</h4>
                         </div>
                         <div class="col-sm-3 text-right text-center-xs">
-                            <a class="btn btn--primary type--uppercase" target="_blank" href="{{cd.promotionUrl}}">
+                            <a class="btn btn--primary type--uppercase" target="_blank" href="contact-us-cn.html">
                                 <span class="btn__text">
-                                    {{cd.promotionButtonText}}
+                                    联系我们
                                 </span>
                             </a>
                         </div>
@@ -715,7 +740,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <p class="type--fine-print">
-                            在乐趣中学习编程 | <a href="{{cd.engUrl}}">English</a>
+                            在乐趣中学习编程 | <a href="cetech.html">English</a>
                         </p>
                     </div>
                     <div class="col-sm-6 text-right text-center-xs">
@@ -737,7 +762,7 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/angular.min.js"></script>
     <!-- UPDATE TEMPLATE 3 -->
-    <script src="course-control/cetechc.js"></script>
+    <script src="course-control/course_detail.js"></script>
     <script src="js/flickity.min.js"></script>
     <script src="js/easypiechart.min.js"></script>
     <script src="js/parallax.js"></script>

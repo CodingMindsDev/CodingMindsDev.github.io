@@ -3,5 +3,5 @@ angular.module('v3App', [])
     $sceProvider.enabled(false);
   })
   .controller('CourseDetailsController', function($scope) {
-  	
+    
   });

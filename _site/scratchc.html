@@ -9,10 +9,10 @@
     <link href="./img/favicon.png" rel="icon">
     <!-- UPDATE TEMPLATE 1 -->
     <title>MIT Scratch创新编程与实践 | Coding Minds 编程思维</title>
-    <meta name="keywords" content="MIT Scratch, Scratch编程, 青少年编程, 课后编程辅导, 编程思维, 编程竞赛">
+    <meta name="keywords" content="Arduino, Arduino编程, C语言, 青少年编程, 课后编程辅导, 编程思维, 编程竞赛">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- UPDATE TEMPLATE 2 -->
-    <meta name="description" content="学Scratch编程，制作游戏和动画，寓教于乐才是硬道理">
+    <meta name="description" content="制作智能电子系统，在硬件的世界学习软件">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
@@ -111,10 +111,10 @@
                 <div class="row">
                     <div class="col-sm-8">
                         <i class="icon icon-Coding color--primary"></i>
-                        <h1>{{cd.topTitleLine1}}<br>{{cd.topTitleLine2}}</h1>
-                        <h3>{{cd.topGradeLevel}}</h3>
+                        <h1>MIT Scratch<br>创新编程与实践</h1>
+                        <h3>K-6 年级</h3>
                         <p class="lead">
-                            {{cd.topIntroText}}
+                            Scratch是由MIT开发的一款青少年编程工具。使用 Scratch，你可以编写属于你自己的互动媒体，比如故事、游戏、动画，然后你可以将你的创意分享给全世界。 Scratch 帮助年轻人更具创造力、逻辑力、协作力。 这些都是21世纪不可或缺的基本能力。
                         </p>
                     </div>
                 </div>
@@ -124,25 +124,25 @@
         <!-- 2. Top Title Feature Image Section -->
         <section class="cover height-80 imagebg text-center" data-overlay="4">
             <div class="background-image-holder">
-                <img alt="background" ng-src="{{cd.bgImageUrl}}" />
+                <img alt="background" ng-src="img/my/scratch/scratchbg2.jpg" />
             </div>
             <div class="container pos-vertical-center">
                 <div class="row">
                     <div class="col-sm-8">
                         <h1>
-                            {{cd.bgTitle}}
+                            MIT Scratch创新编程与实践
                         </h1>
                         <p class="lead">
-                            {{cd.bgText}}
+                            学编程，制作游戏和动画，寓教于乐才是硬道理
                         </p>
                         <div class="modal-instance block">
                             <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
                             <span>
-                                <strong>{{cd.bgLearnMoreText}}</strong>
+                                <strong>了解更多MIT Scratch</strong>
                             </span>
                             <div class="modal-container">
                                 <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                    <iframe ng-src="{{cd.bgLearnMoreLink}}" allowfullscreen="allowfullscreen"></iframe>
+                                    <iframe ng-src="https://www.youtube.com/embed/jXUZaf5D12A?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -155,45 +155,45 @@
         <section class="text-center height-60">
             <div class="container pos-vertical-center">
                 <h4><br></h4>
-                <h2 class="text-center">{{cd.aboutTitle}}</h2>
+                <h2 class="text-center">关于课程</h2>
                 <p class="col-sm-6 col-sm-offset-3 lead">
-                    {{cd.aboutText}}
+                    学习Scratch，发挥你的创造力，和来自世界各地的小程序员分享你的作品
                 </p>
                 <h4><br></h4>
                 <div class="row height-10">
                     <div class="col-sm-6 col-md-3">
                         <div class="text-block">
                             <i class="icon icon--lg icon-Books"></i>
-                            <h4>{{cd.aboutCategoryTitle}}</h4>
+                            <h4>类别</h4>
                             <p>
-                                {{cd.aboutCategory}}
+                                游戏编程
                             </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="text-block">
                             <i class="icon icon--lg icon-User"></i>
-                            <h4>{{cd.aboutGradeLevelTitle}}</h4>
+                            <h4>适合年级</h4>
                             <p>
-                                {{cd.aboutGradeLevel}}
+                                K-6
                             </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="text-block">
                             <i class="icon icon--lg icon-Dashboard"></i>
-                            <h4>{{cd.aboutSkillLevelTitle}}</h4>
+                            <h4>难度级别</h4>
                             <p>
-                                {{cd.aboutSkillLevel}}
+                                初学者
                             </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="text-block">
                             <i class="icon icon--lg icon-Conference"></i>
-                            <h4>{{cd.aboutRatioTitle}}</h4>
+                            <h4>师生比例</h4>
                             <p>
-                                {{cd.aboutRatio}}
+                                小于1:4
                             </p>
                         </div>
                     </div>
@@ -202,86 +202,86 @@
         </section>
 
         <!-- 4. Course Image Promotion Section (5 Images in Template) -->
-        <section ng-hide="{{!cd.promotion1.enabled}}" class="imageblock switchable feature-large bg--secondary space--sm">
+        <section ng-hide="!true" class="imageblock switchable feature-large bg--secondary space--sm">
             <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                 <div class="background-image-holder">
-                    <img alt="image" ng-src="{{cd.promotion1.imageUrl}}" />
+                    <img alt="image" ng-src="img/my/scratch/scratch1.png" />
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <h2>{{cd.promotion1.title}}</h2>
+                        <h2>风靡全球的编程学习平台</h2>
                         <p class="lead">
-                            {{cd.promotion1.text}}
+                            Scratch是由鼎鼎有名的MIT Media Lab开发的一款专门面向中小学生学习计算机编程的教育平台。通过使用更加友好的图形化的编程语言，使学生可以迅速学习和制作丰富有趣的动画和游戏程序。
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section ng-hide="{{!cd.promotion2.enabled}}" class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
+        <section ng-hide="!true" class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
             <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                 <div class="background-image-holder">
-                    <img alt="image" ng-src="{{cd.promotion2.imageUrl}}" />
+                    <img alt="image" ng-src="img/my/scratch/scratch2.png" />
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <h2>{{cd.promotion2.title}}</h2>
+                        <h2>挑战自己的创造力</h2>
                         <p class="lead">
-                            {{cd.promotion2.text}}
+                            全世界不同地方超过上百万人都在制作自己的Scratch项目，已经有超过2千5百万个程序发布在Scratch的分享平台中。还不快来加入这个社区展示一下你的创意是什么？
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section ng-hide="{{!cd.promotion3.enabled}}" class="imageblock switchable feature-large bg--secondary space--sm">
+        <section ng-hide="!true" class="imageblock switchable feature-large bg--secondary space--sm">
             <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                 <div class="background-image-holder">
-                    <img alt="image" ng-src="{{cd.promotion3.imageUrl}}" />
+                    <img alt="image" ng-src="img/my/scratch/scratch3.png" />
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <h2>{{cd.promotion3.title}}</h2>
+                        <h2>从趣味中学习编程大道理</h2>
                         <p class="lead">
-                            {{cd.promotion3.text}}
+                            Scratch把编程概念完美的融合到动画和游戏的制作中。当你完成自己的作品的同时，你已经不知不觉的掌握了变量、循环、函数等这些编程的基本概念，为下一步学习真正的编程打下坚实的基础。
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section ng-hide="{{!cd.promotion4.enabled}}" class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
+        <section ng-hide="!true" class="imageblock switchable switchable--switch feature-large bg--secondary space--sm">
             <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                 <div class="background-image-holder">
-                    <img alt="image" ng-src="{{cd.promotion4.imageUrl}}" />
+                    <img alt="image" ng-src="img/my/scratch/scratch4.png" />
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <h2>{{cd.promotion4.title}}</h2>
+                        <h2>发布和分享你自己的程序</h2>
                         <p class="lead">
-                            {{cd.promotion4.text}}
+                            把自己的程序发布在MIT的Scratch程序分享平台，和来自世界各地的小程序员交流你的作品，让大家为你的创意点赞！
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section ng-hide="{{!cd.promotion5.enabled}}" class="imageblock switchable feature-large bg--secondary space--sm">
+        <section ng-hide="!true" class="imageblock switchable feature-large bg--secondary space--sm">
             <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                 <div class="background-image-holder">
-                    <img alt="image" ng-src="{{cd.promotion5.imageUrl}}" />
+                    <img alt="image" ng-src="img/my/scratch/scratch5.jpg" />
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-7">
-                        <h2>{{cd.promotion5.title}}</h2>
+                        <h2>学习的不仅仅是编程</h2>
                         <p class="lead">
-                            {{cd.promotion5.text}}
+                            计算器编程能力是现今社会文化的组成要素，因为学习编程的同时培养的是逻辑思维、计算能力、创新和想象力。孩子们在编程解决问题的同时，同时得到的是信心！
                         </p>
                     </div>
                 </div>
@@ -289,7 +289,7 @@
         </section>
 
         <!-- 5. Course Curriculum (Optional) TODO -->
-        <section ng-hide="{{!cd.curriculum.enabled}}">
+        <section ng-hide="!false">
             <div class="container">
                 <div class="text-center">
                     <i class="icon icon-Calendar-3 color--primary"></i>
@@ -387,18 +387,75 @@
         <!-- 6. Course Goals -->
         <section class="bg--secondary">
             <div class="container">
-                <h2 class="text-center">{{cd.goalsTitle}}</h2>
+                <h2 class="text-center">课程学习收获和目标</h2>
                 <div class="row">
-                    <div class="col-sm-4" ng-repeat="goal in cd.goals">
+                    
+                    <div class="col-sm-4">
                         <div class="feature feature-2 boxed boxed--border">
-                            <i class="icon color--primary" ng-class="goal.icon"></i>
+                            <i class="icon-Gears icon color--primary" ng-class="goal.icon"></i>
                             <div class="feature__body">
                                 <p>
-                                    {{goal.text}}
+                                    掌握基本的图形编程语言和算法
                                 </p>
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="feature feature-2 boxed boxed--border">
+                            <i class="icon-Coding icon color--primary" ng-class="goal.icon"></i>
+                            <div class="feature__body">
+                                <p>
+                                    动手制作多媒体、动画、电影和游戏
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="feature feature-2 boxed boxed--border">
+                            <i class="icon-Puzzle icon color--primary" ng-class="goal.icon"></i>
+                            <div class="feature__body">
+                                <p>
+                                    带领学生了解计算机，激发对编程的兴趣热情
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="feature feature-2 boxed boxed--border">
+                            <i class="icon-Server icon color--primary" ng-class="goal.icon"></i>
+                            <div class="feature__body">
+                                <p>
+                                    实践中学习动手解决问题的能力
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="feature feature-2 boxed boxed--border">
+                            <i class="icon-Idea icon color--primary" ng-class="goal.icon"></i>
+                            <div class="feature__body">
+                                <p>
+                                    培养科学创新和团队协作的能力
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="feature feature-2 boxed boxed--border">
+                            <i class="icon-Key icon color--primary" ng-class="goal.icon"></i>
+                            <div class="feature__body">
+                                <p>
+                                    锻炼学生适应新环境的能力，参加期末Scratch作品竞赛
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -406,64 +463,129 @@
         <!-- 7. Course Highlights -->
         <section class="text-center">
             <div class="container">
-                <h2 class="text-center">{{cd.highlightsTitle}}</h2>
+                <h2 class="text-center">教学特点</h2>
                 <div class="row">
-                    <div class="col-sm-4" ng-repeat="hl in cd.highlights">
+                    
+                    <div class="col-sm-4" >
                         <div class="feature feature-3 boxed boxed--lg boxed--border">
-                            <i class="icon icon--lg color--primary" ng-class="hl.icon"></i>
-                            <h4>{{hl.title}}</h4>
+                            <i class="icon-Fashion icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>兴趣乐趣第一位</h4>
                             <p>
-                                {{hl.text}}
+                                有趣是我们课程内容的第一要求，了解学生的兴趣才能设计出学生喜欢的课程。
                             </p>
                         </div>
                     </div>
+                    
+                    <div class="col-sm-4" >
+                        <div class="feature feature-3 boxed boxed--lg boxed--border">
+                            <i class="icon-Administrator icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>和专业老师学习</h4>
+                            <p>
+                                学习知识的同时也学习现实中的科研与应用，丰富自己的经历和机会。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4" >
+                        <div class="feature feature-3 boxed boxed--lg boxed--border">
+                            <i class="icon-Hand icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>互动比赛答疑</h4>
+                            <p>
+                                为什么不用网络课堂？学生喜欢现场的互动，交流和比赛。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4" >
+                        <div class="feature feature-3 boxed boxed--lg boxed--border">
+                            <i class="icon-Air-Balloon icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>配套阶梯训练</h4>
+                            <p>
+                                动手才是硬道理，边学边练效果好。知识掌握得更加踏实！
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4" >
+                        <div class="feature feature-3 boxed boxed--lg boxed--border">
+                            <i class="icon-Idea icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>培养创造创新力</h4>
+                            <p>
+                                学习编程并不是最终目标，培养发现问题、动手解决问题的能力更为重要。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4" >
+                        <div class="feature feature-3 boxed boxed--lg boxed--border">
+                            <i class="icon-Key icon icon--lg color--primary" ng-class="hl.icon"></i>
+                            <h4>科学竞赛大学申请</h4>
+                            <p>
+                                计算机编程只是开始，做项目，参加科学竞赛才是大学申请的真正利器！
+                            </p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
 
+        
         <!-- 8. Course Schedule -->
-        <section ng-hide="{{!cd.sessionsEnabled}}" class="switchable bg--secondary">
+        <section ng-hide="!false" class="switchable bg--secondary">
             <div class="container">
-                <h2 class="text-center">{{cd.sessionsTitle}}</h2>
+                <h2 class="text-center">选择适合您的课程时间</h2>
                 <div class="row">
                     <div class="col-sm-12 col-md-12">
                         <table class="border--round table--alternate-row">
                             <thead>
                                 <tr>
-                                    <th class="text-center col-sm-4 col-md-4">{{cd.sessionsDateTitle}}</th>
-                                    <th class="text-center col-sm-4 col-md-4">{{cd.sessionsTimeTitle}}</th>
-                                    <th class="text-center col-sm-4 col-md-4">{{cd.sessionsLocationTitle}}</th>
+                                    <th class="text-center col-sm-4 col-md-4">日期</th>
+                                    <th class="text-center col-sm-4 col-md-4">时间</th>
+                                    <th class="text-center col-sm-4 col-md-4">地点</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr ng-repeat="session in cd.sessions">
-                                    <td class="text-center">{{session.date}}</td>
-                                    <td class="text-center">{{session.time}}</td>
-                                    <td class="text-center">{{session.location}}</td>
+                                <tr ng-repeat="session in page.sessions">
+                                    <td class="text-center"></td>
+                                    <td class="text-center"></td>
+                                    <td class="text-center"></td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
         <!-- 10. Registration -->
-        <section ng-hide="{{!cd.registrationEnabled}}" class="text-center bg--secondary">
+        <section ng-hide="!true" class="text-center bg--secondary">
             <div class="container">
-                <h2 class="text-center">{{cd.registrationTitle}}</h2>
+                <h2 class="text-center"></h2>
                 <div class="row">
                     <div class="col-sm-6 col-md-4">
                         <div class="pricing pricing-1 boxed boxed--lg boxed--border">
-                            <h3>{{cd.priceTitle}}</h3>
-                            <span class="h2"><strong>{{cd.price}}</strong></span>
-                            <span class="type--fine-print">{{cd.allCreditCards}}</span>
+                            <h3>注册报名</h3>
+                            <span class="h2"><strong></strong></span>
+                            <span class="type--fine-print"></span>
                             <hr>
                             <ul>
-                                <li ng-repeat="priceItem in cd.priceItems"><span class="checkmark bg--primary-1"></span><span>{{priceItem}}</span></li>
+                                
+                                <li ><span class="checkmark bg--primary-1"></span><span>
+                                第一节课免费试听，无需付款</span></li>
+                                
+                                <li ><span class="checkmark bg--primary-1"></span><span>
+                                师生比例1:4，保证教学质量</span></li>
+                                
+                                <li ><span class="checkmark bg--primary-1"></span><span>
+                                动手做项目，竞赛创业为目标</span></li>
+                                
+                                <li ><span class="checkmark bg--primary-1"></span><span>
+                                为高中和大学名校申请服务</span></li>
+                                
                             </ul>
-                            <a class="btn btn--primary" href="{{cd.registrationLink}}">
+                            <a class="btn btn--primary" href="https://jinshuju.net/f/x53cr3">
                                 <span class="btn__text">
-                                    {{cd.registerNow}}
+                                    我要报名
                                 </span>
                             </a>
                         </div>
@@ -471,25 +593,63 @@
                 </div>
             </div>
         </section>
-        <section class="switchable" ng-repeat="loc in cd.locations">
+        
+        <section class="switchable">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-5">
                         <div class="switchable__text">
-                            <h3>{{loc.name}}</h3>
-                            <p class="lead">{{loc.address1}}<br/>{{loc.address2}}</p>
+                            <h3>Irvine尔湾编程思维教室地址</h3>
+                            <p class="lead">930 Roosevelt, Suite 236<br/>Irvine, CA 92620</p>
                             <!-- <h4>Camp Schedule</h4> -->
                             <p class="lead">如果您需要提前或推后接送学生，请与我们联系，我们会安排专人负责。</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-7 col-xs-12">
-                        <div class="map-container border--round" data-maps-api-key="AIzaSyCW93W_oXeGZBBQ4Bsz2glY2rj-I0eqlCE" data-address="{{loc.addressMap}}" data-marker-title="Stack" data-map-style="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFBB00&quot;},{&quot;saturation&quot;:43.400000000000006},{&quot;lightness&quot;:37.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFC200&quot;},{&quot;saturation&quot;:-61.8},{&quot;lightness&quot;:45.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:51.19999999999999},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:52},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0078FF&quot;},{&quot;saturation&quot;:-13.200000000000003},{&quot;lightness&quot;:2.4000000000000057},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00FF6A&quot;},{&quot;saturation&quot;:-1.0989010989011234},{&quot;lightness&quot;:11.200000000000017},{&quot;gamma&quot;:1}]}]" data-map-zoom="12"></div>
+                        <div class="map-container border--round" data-maps-api-key="AIzaSyCW93W_oXeGZBBQ4Bsz2glY2rj-I0eqlCE" data-address="930 Roosevelt, Irvine, CA 92620" data-marker-title="Stack" data-map-style="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFBB00&quot;},{&quot;saturation&quot;:43.400000000000006},{&quot;lightness&quot;:37.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFC200&quot;},{&quot;saturation&quot;:-61.8},{&quot;lightness&quot;:45.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:51.19999999999999},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:52},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0078FF&quot;},{&quot;saturation&quot;:-13.200000000000003},{&quot;lightness&quot;:2.4000000000000057},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00FF6A&quot;},{&quot;saturation&quot;:-1.0989010989011234},{&quot;lightness&quot;:11.200000000000017},{&quot;gamma&quot;:1}]}]" data-map-zoom="12"></div>
                     </div>
                 </div>
             </div>
         </section>
+        
+        <section class="switchable">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-5">
+                        <div class="switchable__text">
+                            <h3>Arcadia编程思维教室地址</h3>
+                            <p class="lead">222 S 1st Ave<br/>Arcadia, CA 91006</p>
+                            <!-- <h4>Camp Schedule</h4> -->
+                            <p class="lead">如果您需要提前或推后接送学生，请与我们联系，我们会安排专人负责。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-7 col-xs-12">
+                        <div class="map-container border--round" data-maps-api-key="AIzaSyCW93W_oXeGZBBQ4Bsz2glY2rj-I0eqlCE" data-address="222 S 1st Ave, Arcadia, CA 91006" data-marker-title="Stack" data-map-style="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFBB00&quot;},{&quot;saturation&quot;:43.400000000000006},{&quot;lightness&quot;:37.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFC200&quot;},{&quot;saturation&quot;:-61.8},{&quot;lightness&quot;:45.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:51.19999999999999},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:52},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0078FF&quot;},{&quot;saturation&quot;:-13.200000000000003},{&quot;lightness&quot;:2.4000000000000057},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00FF6A&quot;},{&quot;saturation&quot;:-1.0989010989011234},{&quot;lightness&quot;:11.200000000000017},{&quot;gamma&quot;:1}]}]" data-map-zoom="12"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="switchable">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-5">
+                        <div class="switchable__text">
+                            <h3>Rancho Cucamonga编程思维教室地址</h3>
+                            <p class="lead">10570 E Foothill Blvd. #230<br/>Rancho Cucamonga, CA 91730</p>
+                            <!-- <h4>Camp Schedule</h4> -->
+                            <p class="lead">如果您需要提前或推后接送学生，请与我们联系，我们会安排专人负责。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-7 col-xs-12">
+                        <div class="map-container border--round" data-maps-api-key="AIzaSyCW93W_oXeGZBBQ4Bsz2glY2rj-I0eqlCE" data-address="10570 E Foothill Blvd., Rancho Cucamonga, CA 91730" data-marker-title="Stack" data-map-style="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFBB00&quot;},{&quot;saturation&quot;:43.400000000000006},{&quot;lightness&quot;:37.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FFC200&quot;},{&quot;saturation&quot;:-61.8},{&quot;lightness&quot;:45.599999999999994},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:51.19999999999999},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#FF0300&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:52},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#0078FF&quot;},{&quot;saturation&quot;:-13.200000000000003},{&quot;lightness&quot;:2.4000000000000057},{&quot;gamma&quot;:1}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#00FF6A&quot;},{&quot;saturation&quot;:-1.0989010989011234},{&quot;lightness&quot;:11.200000000000017},{&quot;gamma&quot;:1}]}]" data-map-zoom="12"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <!-- 10. FAQs -->
-        <section ng-hide="{{!cd.faq.enabled}}" class="bg--secondary">
+        <section ng-hide="!" class="bg--secondary">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -556,12 +716,12 @@
                 <div class="row">
                     <div class="cta cta--horizontal text-center-xs">
                         <div class="col-sm-9">
-                            <h4>{{cd.promotionText}}</h4>
+                            <h4>想现在加入到快乐中学习编程吗?</h4>
                         </div>
                         <div class="col-sm-3 text-right text-center-xs">
-                            <a class="btn btn--primary type--uppercase" target="_blank" href="{{cd.promotionUrl}}">
+                            <a class="btn btn--primary type--uppercase" target="_blank" href="contact-us-cn.html">
                                 <span class="btn__text">
-                                    {{cd.promotionButtonText}}
+                                    联系我们
                                 </span>
                             </a>
                         </div>
@@ -616,7 +776,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <p class="type--fine-print">
-                            在乐趣中学习编程 | <a href="{{cd.engUrl}}">English</a>
+                            在乐趣中学习编程 | <a href="scratch.html">English</a>
                         </p>
                     </div>
                     <div class="col-sm-6 text-right text-center-xs">
@@ -638,7 +798,7 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/angular.min.js"></script>
     <!-- UPDATE TEMPLATE 3 -->
-    <script src="course-control/scratchc.js"></script>
+    <script src="course-control/course_detail.js"></script>
     <script src="js/flickity.min.js"></script>
     <script src="js/easypiechart.min.js"></script>
     <script src="js/parallax.js"></script>
